@@ -24,6 +24,5 @@ function currentLine(katzDeliLine){
       array.push(i+1 + ". " + katzDeliLine[i])
     }
     return ("The line is currently: " + array.join(", "));
-  } 
+  }
 };
-
